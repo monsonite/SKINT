@@ -23,47 +23,78 @@ There are 4 simple rules:
 
 The instruction primitives are represented by the 32 common punctuation and arithmetic symbols.
 
-ADD   	+			
+ADD   	+
+
 SUB			-
+
 MUL			*
+
 DIV			/
 
+
 GT			>
+
 EQ			=
+
 LT			<
 
+
 BEGIN		(
+
 END			)
 
+
 AND			&
+
 OR			|
+
 XOR			^
-INV			~			
+
+INV			~
+
 NEG			_
 
+
 SHL 		{
+
 SHR			}
+
 
 HEXNUM	#
 
-STRING	`Hello World`	
+
+STRING	`Hello World`
+
 
 DUP			"
+
 DROP		'
+
 SWAP		$
+
 OVER		%
 
+
 PRINT		.
+
 HEXPRNT '
+
 INPUT 	?
 
 
+
 FETCH		@
+
 STORE		!
 
+
 DEF			:
+
 ENDDEF	;
+
 
 ARRAY   [	]
 
+
 EXTEND 	\
+
